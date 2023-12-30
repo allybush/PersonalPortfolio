@@ -5,7 +5,7 @@ Included are files of my work on a music genre classification project using AI w
 
 [This](https://drive.google.com/drive/folders/1LB6511kMThrGdbB9CrNYJ34WQg2j1K-F?usp=share_link) Google Drive folder is the dataset we generated with this program, sorted into genre categories with approximately the same number of images per category. This prevented the model from training unevenly. We could’ve made the dataset larger—and consequently, the model more accurate—by scouring more Spotify playlists, but for the sake of the project's timeline and the power of my computer, we limited each category to 300-400 images. 
 
-[functions.js](https://github.com/allybush/PersonalPortfolio/blob/993745367c546006452ca21ec0972458ab7c17dd/functions.js) is the AJAX/Javascript for our webpage. Not only does it do simple things, like button clicking and color changing, it also passes user information to the model/backend, then passes the result of the CNN back to the user.
+[functions.js](https://github.com/allybush/PersonalPortfolio/blob/993745367c546006452ca21ec0972458ab7c17dd/functions.js) is the AJAX/Javascript for our webpage. Not only does it do simple things, like button clicking and color changing, it also passes user information to the model/backend, then passes the result of the convolutional neural network back to the user.
 
 [runmodel.py](https://github.com/allybush/PersonalPortfolio/blob/993745367c546006452ca21ec0972458ab7c17dd/runmodel.py) is the code that ran the model on the first 30 seconds of a user’s song taken from Spotify’s API. It ensured the song length is uniform, reshaped the data a bit, converted the song into a mel-spectrogram, then ran the stored model on the mel-spectrogram and passed the output to the webpage.
 
