@@ -1,5 +1,5 @@
 # PersonalPortfolio
-Included are files of my work on various projects with a short description of what they do. I've also linked a Google Drive folder of a dataset I created.
+Included are files of my work on a music genre classification project using AI with a short description of what they do. I've also linked a Google Drive folder of a dataset I created.
 
 [dataset.py](https://github.com/allybush/PersonalPortfolio/blob/993745367c546006452ca21ec0972458ab7c17dd/dataset.py) used Spotify’s web API to create our own custom dataset—we found that datasets on Kaggle were too small or not quite what we were looking for. It iterated through a list of Spotify playlists for each music genre and turned the first thirty seconds of each song into a mel-spectrogram (visualization of a sound’s pitch, frequency, and strength) that we could use with our CNN. It sorted the resulting mel-spectrogram for each song into folders by genre.
 
