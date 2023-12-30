@@ -1,2 +1,2 @@
 # PersonalPortfolio
-Portfolio of my coding work
+Included are files of my work on various projects with a short description of what they do.
